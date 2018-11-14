@@ -2,7 +2,7 @@ package patterns.factorypattern;
 
 public class FactoryPatternDemo {
 
-    public void test(){
+    public static void test(){
         System.out.println("工厂模式 -------start");
         ShapeFactory shapeFactory = new ShapeFactory();
 
