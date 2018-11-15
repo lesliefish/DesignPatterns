@@ -1,5 +1,5 @@
 import patterns.abstractfactory.AbstractFactoryPatternDemo;
-import patterns.factorypattern.FactoryPatternDemo;
+import patterns.factory.FactoryPatternDemo;
 
 public class DesignPatterns {
 

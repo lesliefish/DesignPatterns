@@ -4,13 +4,12 @@
     <list default="true" id="a81b0ace-e67b-4771-8b3d-f208464f460a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPatterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/abstractfactory/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/abstractfactory/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/abstractfactory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/abstractfactory/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/abstractfactory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/abstractfactory/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/abstractfactory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/abstractfactory/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factorypattern/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factorypattern/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/FactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/factorypattern/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/factory/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +51,7 @@
     <session id="10043944">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.opened" value="3" />
@@ -60,12 +59,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,11 +81,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/abstractfactory/AbstractFactoryPatternDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +143,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Shape.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/factory/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -150,7 +152,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Square.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/factory/Square.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -163,7 +165,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Circle.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/factory/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -175,11 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/factory/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
@@ -226,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/patterns/factorypattern/Square.java" />
         <option value="$PROJECT_DIR$/src/patterns/factorypattern/Circle.java" />
         <option value="$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/patterns/factory/Rectangle.java" />
       </list>
     </option>
   </component>
@@ -261,20 +264,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factorypattern" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542258740449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542259046481" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -334,7 +323,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37214136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37214136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/ShapeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="9" />
@@ -418,7 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/FactoryPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/FactoryPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="16" selection-end-column="48" />
@@ -436,16 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,14 +473,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Square.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -513,7 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -524,13 +502,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factorypattern/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/factory/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
