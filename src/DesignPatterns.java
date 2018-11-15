@@ -1,3 +1,4 @@
+import patterns.abstractfactory.AbstractFactoryPatternDemo;
 import patterns.factorypattern.FactoryPatternDemo;
 
 public class DesignPatterns {
@@ -6,5 +7,7 @@ public class DesignPatterns {
     {
         // 工厂模式
         FactoryPatternDemo.test();
+        // 抽象工厂模式
+        AbstractFactoryPatternDemo.test();
     }
 }

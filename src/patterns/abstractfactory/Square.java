@@ -3,6 +3,6 @@ package patterns.abstractfactory;
 public class Square implements Shape {
     @Override
     public void draw() {
-        System.out.println("画一个正方形");
+        System.out.println("draw square");
     }
 }
