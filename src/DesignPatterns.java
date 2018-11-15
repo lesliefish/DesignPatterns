@@ -1,5 +1,6 @@
 import patterns.abstractfactory.AbstractFactoryPatternDemo;
 import patterns.factory.FactoryPatternDemo;
+import patterns.singleton.SingltonPatternDemo;
 
 public class DesignPatterns {
 
@@ -9,5 +10,7 @@ public class DesignPatterns {
         FactoryPatternDemo.test();
         // 抽象工厂模式
         AbstractFactoryPatternDemo.test();
+        // 单例模式
+        SingltonPatternDemo.test();
     }
 }
