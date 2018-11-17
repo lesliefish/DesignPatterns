@@ -1,4 +1,6 @@
 import patterns.abstractfactory.AbstractFactoryPatternDemo;
+import patterns.builder.BuilderPatternDemo;
+import patterns.builder.MealBuilder;
 import patterns.factory.FactoryPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
 
@@ -12,5 +14,7 @@ public class DesignPatterns {
         AbstractFactoryPatternDemo.test();
         // 单例模式
         SingltonPatternDemo.test();
+        // 创建型模式
+        BuilderPatternDemo.test();
     }
 }
