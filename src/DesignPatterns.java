@@ -2,6 +2,7 @@ import patterns.abstractfactory.AbstractFactoryPatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.factory.FactoryPatternDemo;
+import patterns.prototype.PrototypePatternDemo;
 import patterns.singleton.SingltonPatternDemo;
 
 public class DesignPatterns {
@@ -16,5 +17,7 @@ public class DesignPatterns {
         SingltonPatternDemo.test();
         // 创建型模式
         BuilderPatternDemo.test();
+        // 原型模式
+        PrototypePatternDemo.test();
     }
 }
