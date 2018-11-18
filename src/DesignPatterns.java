@@ -1,4 +1,5 @@
 import patterns.abstractfactory.AbstractFactoryPatternDemo;
+import patterns.adapter.AdapterPatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.factory.FactoryPatternDemo;
@@ -7,8 +8,7 @@ import patterns.singleton.SingltonPatternDemo;
 
 public class DesignPatterns {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // 工厂模式
         FactoryPatternDemo.test();
         // 抽象工厂模式
@@ -19,5 +19,7 @@ public class DesignPatterns {
         BuilderPatternDemo.test();
         // 原型模式
         PrototypePatternDemo.test();
+        // 适配器模式
+        AdapterPatternDemo.test();
     }
 }
