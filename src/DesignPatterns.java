@@ -1,5 +1,6 @@
 import patterns.abstractfactory.AbstractFactoryPatternDemo;
 import patterns.adapter.AdapterPatternDemo;
+import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.factory.FactoryPatternDemo;
@@ -21,5 +22,7 @@ public class DesignPatterns {
         PrototypePatternDemo.test();
         // 适配器模式
         AdapterPatternDemo.test();
+        // 桥接模式
+        BridgePatternDemo.test();
     }
 }
