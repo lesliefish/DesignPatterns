@@ -3,6 +3,7 @@ import patterns.adapter.AdapterPatternDemo;
 import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
+import patterns.composite.CompositePatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -24,5 +25,7 @@ public class DesignPatterns {
         AdapterPatternDemo.test();
         // 桥接模式
         BridgePatternDemo.test();
+        // 复合型模式
+        CompositePatternDemo.test();
     }
 }
