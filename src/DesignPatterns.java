@@ -6,6 +6,7 @@ import patterns.builder.MealBuilder;
 import patterns.composite.CompositePatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
+import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
 
 public class DesignPatterns {
@@ -27,5 +28,7 @@ public class DesignPatterns {
         BridgePatternDemo.test();
         // 复合型模式
         CompositePatternDemo.test();
+        // 代理模式
+        ProxyPatternDemo.test();
     }
 }
