@@ -5,6 +5,7 @@ import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.composite.CompositePatternDemo;
 import patterns.factory.FactoryPatternDemo;
+import patterns.filter.FilterPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -30,5 +31,7 @@ public class DesignPatterns {
         CompositePatternDemo.test();
         // 代理模式
         ProxyPatternDemo.test();
+        // 过滤模式
+        FilterPatternDemo.test();
     }
 }
