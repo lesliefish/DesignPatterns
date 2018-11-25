@@ -4,6 +4,7 @@ import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.composite.CompositePatternDemo;
+import patterns.decorator.DecoratorPatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.filter.FilterPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
@@ -33,5 +34,7 @@ public class DesignPatterns {
         ProxyPatternDemo.test();
         // 过滤模式
         FilterPatternDemo.test();
+        // 装饰器模式
+        DecoratorPatternDemo.test();
     }
 }
