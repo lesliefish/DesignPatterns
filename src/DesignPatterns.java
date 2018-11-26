@@ -5,6 +5,7 @@ import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.composite.CompositePatternDemo;
 import patterns.decorator.DecoratorPatternDemo;
+import patterns.facade.FacadePatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.filter.FilterPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
@@ -36,5 +37,7 @@ public class DesignPatterns {
         FilterPatternDemo.test();
         // 装饰器模式
         DecoratorPatternDemo.test();
+        // 外观模式
+        FacadePatternDemo.test();
     }
 }
