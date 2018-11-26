@@ -8,6 +8,7 @@ import patterns.decorator.DecoratorPatternDemo;
 import patterns.facade.FacadePatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.filter.FilterPatternDemo;
+import patterns.flyweight.FlyweightPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -39,5 +40,7 @@ public class DesignPatterns {
         DecoratorPatternDemo.test();
         // 外观模式
         FacadePatternDemo.test();
+        // 享元模式
+        FlyweightPatternDemo.test();
     }
 }
