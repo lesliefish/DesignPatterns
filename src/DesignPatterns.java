@@ -3,6 +3,7 @@ import patterns.adapter.AdapterPatternDemo;
 import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
+import patterns.chain.ChainPatternDemo;
 import patterns.composite.CompositePatternDemo;
 import patterns.decorator.DecoratorPatternDemo;
 import patterns.facade.FacadePatternDemo;
@@ -42,5 +43,7 @@ public class DesignPatterns {
         FacadePatternDemo.test();
         // 享元模式
         FlyweightPatternDemo.test();
+        // 责任链模式
+        ChainPatternDemo.test();
     }
 }
