@@ -18,6 +18,7 @@ import patterns.observer.ObserverPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
+import patterns.state.StatePatternDemo;
 
 public class DesignPatterns {
 
@@ -62,5 +63,7 @@ public class DesignPatterns {
         MementoPatternDemo.test();
         // 观察者模式
         ObserverPatternDemo.test();
+        // 状态模式
+        StatePatternDemo.test();
     }
 }
