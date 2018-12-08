@@ -12,6 +12,7 @@ import patterns.factory.FactoryPatternDemo;
 import patterns.filter.FilterPatternDemo;
 import patterns.flyweight.FlyweightPatternDemo;
 import patterns.interpreter.InterpreterPatternDemo;
+import patterns.iterator.IteratorPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -51,5 +52,7 @@ public class DesignPatterns {
         CommandPatternDemo.test();
         // 解释器模式
         InterpreterPatternDemo.test();
+        // 迭代器模式
+        IteratorPatternDemo.test();
     }
 }
