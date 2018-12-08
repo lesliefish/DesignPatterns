@@ -4,6 +4,7 @@ import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
 import patterns.builder.MealBuilder;
 import patterns.chain.ChainPatternDemo;
+import patterns.command.CommandPatternDemo;
 import patterns.composite.CompositePatternDemo;
 import patterns.decorator.DecoratorPatternDemo;
 import patterns.facade.FacadePatternDemo;
@@ -45,5 +46,7 @@ public class DesignPatterns {
         FlyweightPatternDemo.test();
         // 责任链模式
         ChainPatternDemo.test();
+        // 命令行模式
+        CommandPatternDemo.test();
     }
 }
