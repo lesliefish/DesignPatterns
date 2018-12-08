@@ -98,55 +98,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1111" />
+          <entry key="java" value="1521" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1111" />
+          <entry key="JAVA" value="1521" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/TerminalExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/chain/ChainPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -182,20 +160,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/iterator/IteratorPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/AndExpression.java">
+        <entry file="file://$PROJECT_DIR$/src/patterns/composite/CompositePatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/mediator/ChatRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/mediator/MediatorPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/mediator/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,15 +220,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/prototype/PrototypePatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -234,9 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/bridge/RedCircle.java" />
-        <option value="$PROJECT_DIR$/src/patterns/bridge/GreenCircle.java" />
-        <option value="$PROJECT_DIR$/src/patterns/bridge/Shape.java" />
         <option value="$PROJECT_DIR$/src/patterns/bridge/Circle.java" />
         <option value="$PROJECT_DIR$/src/patterns/bridge/BridgePatternDemo.java" />
         <option value="$PROJECT_DIR$/src/patterns/composite/Employee.java" />
@@ -284,11 +287,14 @@
         <option value="$PROJECT_DIR$/src/patterns/iterator/Container.java" />
         <option value="$PROJECT_DIR$/src/patterns/iterator/NameRepository.java" />
         <option value="$PROJECT_DIR$/src/patterns/iterator/IteratorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/patterns/mediator/User.java" />
+        <option value="$PROJECT_DIR$/src/patterns/mediator/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/patterns/mediator/MediatorPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -325,14 +331,14 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544255838416" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544256924981" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -395,7 +401,7 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3045738" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,14 +456,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Shape.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/BridgePatternDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/composite/Employee.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/proxy/Image.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/proxy/RealImage.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/proxy/ProxyImage.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/composite/CompositePatternDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/proxy/ProxyPatternDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/filter/CriteriaMale.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/filter/Person.java" />
@@ -619,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/iterator/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -640,10 +635,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/iterator/IteratorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/CompositePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/mediator/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/mediator/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/iterator/IteratorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/mediator/MediatorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>

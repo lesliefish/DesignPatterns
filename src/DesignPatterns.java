@@ -2,7 +2,6 @@ import patterns.abstractfactory.AbstractFactoryPatternDemo;
 import patterns.adapter.AdapterPatternDemo;
 import patterns.bridge.BridgePatternDemo;
 import patterns.builder.BuilderPatternDemo;
-import patterns.builder.MealBuilder;
 import patterns.chain.ChainPatternDemo;
 import patterns.command.CommandPatternDemo;
 import patterns.composite.CompositePatternDemo;
@@ -13,6 +12,7 @@ import patterns.filter.FilterPatternDemo;
 import patterns.flyweight.FlyweightPatternDemo;
 import patterns.interpreter.InterpreterPatternDemo;
 import patterns.iterator.IteratorPatternDemo;
+import patterns.mediator.MediatorPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -54,5 +54,7 @@ public class DesignPatterns {
         InterpreterPatternDemo.test();
         // 迭代器模式
         IteratorPatternDemo.test();
+        // 中介模式
+        MediatorPatternDemo.test();
     }
 }
