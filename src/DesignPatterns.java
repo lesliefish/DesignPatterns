@@ -11,6 +11,7 @@ import patterns.facade.FacadePatternDemo;
 import patterns.factory.FactoryPatternDemo;
 import patterns.filter.FilterPatternDemo;
 import patterns.flyweight.FlyweightPatternDemo;
+import patterns.interpreter.InterpreterPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -48,5 +49,7 @@ public class DesignPatterns {
         ChainPatternDemo.test();
         // 命令行模式
         CommandPatternDemo.test();
+        // 解释器模式
+        InterpreterPatternDemo.test();
     }
 }
