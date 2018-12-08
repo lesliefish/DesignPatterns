@@ -13,6 +13,7 @@ import patterns.flyweight.FlyweightPatternDemo;
 import patterns.interpreter.InterpreterPatternDemo;
 import patterns.iterator.IteratorPatternDemo;
 import patterns.mediator.MediatorPatternDemo;
+import patterns.memento.MementoPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -56,5 +57,7 @@ public class DesignPatterns {
         IteratorPatternDemo.test();
         // 中介模式
         MediatorPatternDemo.test();
+        // 备忘录模式
+        MementoPatternDemo.test();
     }
 }
