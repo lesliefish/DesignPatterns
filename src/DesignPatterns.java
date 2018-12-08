@@ -14,6 +14,7 @@ import patterns.interpreter.InterpreterPatternDemo;
 import patterns.iterator.IteratorPatternDemo;
 import patterns.mediator.MediatorPatternDemo;
 import patterns.memento.MementoPatternDemo;
+import patterns.observer.ObserverPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
@@ -59,5 +60,7 @@ public class DesignPatterns {
         MediatorPatternDemo.test();
         // 备忘录模式
         MementoPatternDemo.test();
+        // 观察者模式
+        ObserverPatternDemo.test();
     }
 }
