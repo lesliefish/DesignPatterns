@@ -14,6 +14,7 @@ import patterns.interpreter.InterpreterPatternDemo;
 import patterns.iterator.IteratorPatternDemo;
 import patterns.mediator.MediatorPatternDemo;
 import patterns.memento.MementoPatternDemo;
+import patterns.nullobject.NullObjectPatternDemo;
 import patterns.observer.ObserverPatternDemo;
 import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
@@ -65,5 +66,7 @@ public class DesignPatterns {
         ObserverPatternDemo.test();
         // 状态模式
         StatePatternDemo.test();
+        // 空对象模式
+        NullObjectPatternDemo.test();
     }
 }
