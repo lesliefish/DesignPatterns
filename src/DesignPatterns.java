@@ -20,6 +20,7 @@ import patterns.prototype.PrototypePatternDemo;
 import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
 import patterns.state.StatePatternDemo;
+import patterns.strategy.StrategyPatternDemo;
 
 public class DesignPatterns {
 
@@ -68,5 +69,7 @@ public class DesignPatterns {
         StatePatternDemo.test();
         // 空对象模式
         NullObjectPatternDemo.test();
+        // 策略模式
+        StrategyPatternDemo.test();
     }
 }
