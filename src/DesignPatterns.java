@@ -21,6 +21,7 @@ import patterns.proxy.ProxyPatternDemo;
 import patterns.singleton.SingltonPatternDemo;
 import patterns.state.StatePatternDemo;
 import patterns.strategy.StrategyPatternDemo;
+import patterns.template.TemplatePatternDemo;
 
 public class DesignPatterns {
 
@@ -71,5 +72,7 @@ public class DesignPatterns {
         NullObjectPatternDemo.test();
         // 策略模式
         StrategyPatternDemo.test();
+        // 模板模式
+        TemplatePatternDemo.test();
     }
 }
