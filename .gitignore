@@ -1,3 +1,8 @@
 
 *.class
 out/production/DesignPatterns/META-INF/DesignPatterns.kotlin_module
+cpp/DesignPatterns/.vs/DesignPatterns/v14/.suo
+*.log
+*.opensdf
+*.sdf
+*.lastbuildstate
